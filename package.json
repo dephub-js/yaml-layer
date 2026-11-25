@@ -1,7 +1,7 @@
 {
   "name": "@dephub/yaml-layer",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Build, validate, transform, and watch YAML content layers using `@dephub/layer` with a ready-to-use CLI and programmatic APIs.",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
