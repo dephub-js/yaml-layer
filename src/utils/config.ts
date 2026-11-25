@@ -8,11 +8,9 @@ import type { YamlEntry } from '#/core/types.ts';
 
 import { parseYaml } from '#/utils/parse.ts';
 
-const defaultName = 'yaml-layer';
-
 export const yamlBuilderConfig: BuilderConfig<YamlEntry> = {
-  defaultOutDir: `.${defaultName}`,
-  name: __PKG_NAME__.split('/')[1] ?? defaultName,
+  defaultOutDir: '.yaml-layer',
+  name: __PKG_NAME__.split('/')[1],
   outExtension: '.json',
   parser: parseYaml,
   pattern: '**/*.+(yaml|yml)',
