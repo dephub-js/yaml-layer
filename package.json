@@ -1,7 +1,7 @@
 {
   "name": "@dephub/yaml-layer",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Build, validate, transform, and watch YAML content layers using `@dephub/layer` with a ready-to-use CLI and programmatic APIs.",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
@@ -59,18 +59,18 @@
     "access": "public"
   },
   "dependencies": {
-    "@dephub/layer": "^1.0.8",
+    "@dephub/layer": "^1.0.10",
     "@dephub/layer-entry": "^1.0.0",
-    "@dephub/path": "^2.0.0",
-    "@dephub/read": "^1.0.3",
-    "@dephub/schema": "^1.0.0",
-    "@dephub/slug": "^1.0.4",
+    "@dephub/path": "^2.0.1",
+    "@dephub/read": "^1.0.5",
+    "@dephub/schema": "^1.0.1",
+    "@dephub/slug": "^1.0.5",
     "yaml": "^2.9.1"
   },
   "devDependencies": {
-    "@dephub/eslint-ts": "^1.0.5",
-    "@dephub/glob": "^1.0.2",
-    "@types/node": "^26.6.7",
+    "@dephub/eslint-ts": "^1.0.6",
+    "@dephub/glob": "^1.0.3",
+    "@types/node": "^26.6.10",
     "eslint": "^10.15.0",
     "prettier": "^3.10.1",
     "typescript": "6.0.3",
